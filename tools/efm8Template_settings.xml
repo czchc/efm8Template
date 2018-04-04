@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdtprojectproperties>
+<section name="org.eclipse.cdt.internal.ui.wizards.settingswizards.IncludePaths">
+<language name="C Source File">
+<includepath workspace_path="true">/${ProjName}/inc</includepath>
+<includepath>${StudioSdkPath}/Device/EFM8BB2/peripheral_driver/inc</includepath>
+<includepath workspace_path="true">/${ProjName}/lib/efm8/inc</includepath>
+<includepath>${StudioSdkPath}/Device/shared/si8051base</includepath>
+<includepath>${StudioSdkPath}/Device/EFM8BB2/inc</includepath>
+<includepath workspace_path="true">/${ProjName}/src/target</includepath>
+
+</language>
+<language name="Assembly Source File">
+<includepath workspace_path="true">/${ProjName}/inc</includepath>
+<includepath>${StudioSdkPath}/Device/EFM8BB2/peripheral_driver/inc</includepath>
+<includepath workspace_path="true">/${ProjName}/lib/efm8/inc</includepath>
+<includepath>${StudioSdkPath}/Device/shared/si8051base</includepath>
+<includepath>${StudioSdkPath}/Device/EFM8BB2/inc</includepath>
+<includepath workspace_path="true">/${ProjName}/src/target</includepath>
+
+</language>
+<language name="OBJ">
+
+</language>
+</section>
+<section name="org.eclipse.cdt.internal.ui.wizards.settingswizards.Macros">
+<language name="C Source File">
+<macro>
+<name>NDEBUG</name><value>1</value>
+</macro>
+<macro>
+<name>TARGET_EVAL1</name><value>1</value>
+</macro>
+<macro>
+<name>TARGET_EVAL2</name><value>0</value>
+</macro>
+
+</language>
+<language name="Assembly Source File">
+
+</language>
+<language name="OBJ">
+
+</language>
+</section>
+</cdtprojectproperties>
